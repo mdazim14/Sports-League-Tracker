@@ -1,0 +1,15 @@
+.headerStyle {
+padding: 20px;
+background-image: url('../../Images/backgroundImage.jpg');
+background-repeat: no-repeat;
+color: rgb(10, 251, 91);
+background-size: cover;
+background-position: center;
+text-shadow: 2px 2px #3b3b39;
+height: 300px;
+}
+.headerText {
+ margin-top: 100px;
+ font-weight: 900;
+ 
+}
