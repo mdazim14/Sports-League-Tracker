@@ -15,8 +15,7 @@ const Home = () => {
                 console.log(data.leagues);
             })
         }, [])
-    
-
+        
     return (
         <div>
             <Header></Header>

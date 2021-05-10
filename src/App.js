@@ -7,6 +7,7 @@ import {
   Link
 } from "react-router-dom";
 import Home from './Components/Home/Home';
+import SingleLeague from './Components/SingleLeague/SingleLeague';
 
 function App() {
   return (
@@ -18,6 +19,10 @@ function App() {
     </Route>
     <Route path="/home">
       <Home />
+    </Route>
+
+    <Route path="/league/:id">
+      <SingleLeague />
     </Route>
 
 </Switch>
