@@ -38,7 +38,7 @@ const LeagueDetails = (props) => {
                 <p>Gender: {strGender}</p>
                 <p>Year: {intFormedYear} {strCountry}</p>
               </div>
-              <Link to={`/league/${idLeague}`}> 
+          <Link to={`/league/${idLeague}`}> 
           <Button 
           className="btn-warning"> Explore <FontAwesomeIcon icon={faSignInAlt} /> </Button>
           </Link>
