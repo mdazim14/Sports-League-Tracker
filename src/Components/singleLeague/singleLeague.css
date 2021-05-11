@@ -1,9 +1,14 @@
 .singleImage {
   background-color: rgb(5, 22, 77);
   border: 5px solid white;
-  padding: 20px;
-  margin-top: 60px;
-  width: 250px;
+   padding: 20px;
+   /*
+  margin-top: 60px; */
+  width:250px; 
+  /* position: absolute;
+  top: 8%;
+  left: 50%;
+  right: 50%; */
 }
 
 .singleImgDiv {
@@ -14,6 +19,10 @@
   background-position: center;
   width: 100%;
   height: 400px;
+  /* position: relative; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .singleCard {
@@ -22,9 +31,11 @@
   margin: auto;
   width: 50%;
   padding: 10px;
-  margin-top: 10px;
+  
   background-color: #560e30;
   color: white;
+  margin-top: 10px;
+  border-radius: 10px;
 }
 
 .singleCard p {
@@ -48,22 +59,14 @@
 }
 .iconStyle a:hover {
   /* background-color: white; */
-  color: rgb(113, 191, 255);
+  color: rgb(75, 174, 255);
 }
 .iconStyle a {
-  font-size: 3rem;
+  font-size: 2rem;
   color: rgb(76, 94, 251);
   margin: auto;
   text-decoration: none;
   margin: 10px;
-}
-
-
-@media only screen and (max-width: 600px) {
-    
-}
-@media only screen and (max-width: 1200px) {
-
 }
 
 @media only screen and (max-width: 992px) {
@@ -75,6 +78,8 @@
     align-items: center;
     text-align: top;
     margin: auto;
+    margin-top: 10px;
+  border-radius: 10px;
   }
   .paragraphStyle {
     margin: auto;
