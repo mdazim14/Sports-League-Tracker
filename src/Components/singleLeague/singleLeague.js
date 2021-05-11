@@ -47,12 +47,6 @@ const SingleLeague = () => {
 
   console.log(strFacebook);
 
-  //   function genderHandle(gender) {
-  //     return gender === "male"
-  //       ? <img src={male} alt="" />
-  //       : <img src={female} alt="" />
-  //   }
-
   return (
     <div
       style={{
@@ -98,38 +92,39 @@ const SingleLeague = () => {
         </div>
       </div>
       <div className="paragraphStyle">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
-        repellat quo nostrum accusamus laborum omnis necessitatibus et vel enim
-        itaque provident quasi dicta repudiandae alias assumenda non soluta rem?
-        Odit voluptates recusandae eos delectus ut facilis eveniet obcaecati
-        minus esse ducimus, aliquid quo dolorum voluptate labore ex cumque
-        doloremque ipsa harum nesciunt totam temporibus? Voluptatem provident
-        error, possimus veritatis, dignissimos commodi omnis vitae nisi soluta
-        qui distinctio, minima voluptatibus doloribus velit explicabo accusamus
-        exercitationem esse consequuntur pariatur cum sint quibusdam architecto
-        eaque?</p>
-        <p>Quos exercitationem quia officiis suscipit non enim, natus
-        doloribus, quibusdam necessitatibus id delectus numquam vitae molestiae
-        nisi? Officiis assumenda dolores culpa minus dolorem quibusdam
-        laudantium iure odit enim. Vel iure minus laborum possimus esse, maiores
-        doloribus? Ipsam, eveniet iusto vitae non necessitatibus animi
-        accusantium eligendi? Explicabo, in odit!</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
+          repellat quo nostrum accusamus laborum omnis necessitatibus et vel
+          enim itaque provident quasi dicta repudiandae alias assumenda non
+          soluta rem? Odit voluptates recusandae eos delectus ut facilis eveniet
+          obcaecati minus esse ducimus, aliquid quo dolorum voluptate labore ex
+          cumque doloremque ipsa harum nesciunt totam temporibus? Voluptatem
+          provident error, possimus veritatis, dignissimos commodi omnis vitae
+          nisi soluta qui distinctio, minima voluptatibus doloribus velit
+          explicabo accusamus exercitationem esse consequuntur pariatur cum sint
+          quibusdam architecto eaque?
+        </p>
+        <p>
+          Quos exercitationem quia officiis suscipit non enim, natus doloribus,
+          quibusdam necessitatibus id delectus numquam vitae molestiae nisi?
+          Officiis assumenda dolores culpa minus dolorem quibusdam laudantium
+          iure odit enim. Vel iure minus laborum possimus esse, maiores
+          doloribus? Ipsam, eveniet iusto vitae non necessitatibus animi
+          accusantium eligendi? Explicabo, in odit!
+        </p>
       </div>
       <div className="iconStyle">
-        <a href={`https://${strFacebook}`}
-         target="_blank" rel="noreferrer">
+        <a href={`https://${strFacebook}`} target="_blank" rel="noReferrer">
           {" "}
           <FontAwesomeIcon icon={faFacebook} />{" "}
         </a>
 
-        <a href={`https://${strTwitter}`}
-         target="_blank" rel="noreferrer">
+        <a href={`https://${strTwitter}`} target="_blank" rel="noReferrer">
           {" "}
           <FontAwesomeIcon icon={faTwitter} />{" "}
         </a>
 
-        <a href={`https://${strYoutube}`}
-         target="_blank" rel="noreferrer">
+        <a href={`https://${strYoutube}`} target="_blank" rel="noReferrer">
           {" "}
           <FontAwesomeIcon icon={faYoutube} />{" "}
         </a>
