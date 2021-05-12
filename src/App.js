@@ -10,14 +10,15 @@ function App() {
     <div className="App">
       <Router>npm
         <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
+          
           <Route path="/home">
             <Home />
           </Route>
           <Route path="/league/:id">
             <SingleLeague />
+          </Route>
+          <Route exact path="/">
+            <Home />
           </Route>
           <Route path="*">
             <NoMatch />
