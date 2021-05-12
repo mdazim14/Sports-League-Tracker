@@ -2,15 +2,15 @@ import logo from "./logo.svg";
 import "./App.css";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Home from "./Components/Home/Home";
-import SingleLeague from "./Components/SingleLeague/SingleLeague";
+
 import NoMatch from "./Components/NoMatch/NoMatch";
+import SingleLeague from "./Components/singleLeague/singleLeague";
 
 function App() {
   return (
-    <div className="App">
-      <Router>npm
+    
+      <Router>
         <Switch>
-          
           <Route path="/home">
             <Home />
           </Route>
@@ -25,7 +25,7 @@ function App() {
           </Route>
         </Switch>
       </Router>
-    </div>
+    
   );
 }
 
