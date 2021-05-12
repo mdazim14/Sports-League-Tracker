@@ -4,10 +4,10 @@ import { useEffect } from "react";
 import { Button, Card, CardDeck } from "react-bootstrap";
 import "./LeagueDetails.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCoffee, faSignInAlt } from "@fortawesome/free-solid-svg-icons";
-import { Link, useHistory } from "react-router-dom";
+import { faSignInAlt } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 const LeagueDetails = (props) => {
-  //   console.log(props.data);
+  
   const { idLeague } = props.data;
   const [leagueInfo, setLeagueInfo] = useState([]);
   const {
@@ -21,7 +21,7 @@ const LeagueDetails = (props) => {
 
   useEffect(() => {
     const url = `https://www.thesportsdb.com/api/v1/json/1/lookupleague.php?id=${idLeague}`;
-    // console.log(url)
+    
     fetch(url)
       .then((res) => res.json())
       .then((data) => {

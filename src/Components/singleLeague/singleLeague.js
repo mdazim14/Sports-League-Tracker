@@ -6,7 +6,6 @@ import male from "../../Images/male.png";
 import female from "../../Images/female.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faCoffee,
   faFlag,
   faFutbol,
   faLayerGroup,

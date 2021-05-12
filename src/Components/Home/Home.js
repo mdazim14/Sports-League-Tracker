@@ -6,7 +6,7 @@ const Home = () => {
   const [league, setLeague] = useState([]);
   useEffect(() => {
     const url = `https://www.thesportsdb.com/api/v1/json/1/all_leagues.php`;
-    // console.log(url)
+    
     fetch(url)
       .then((res) => res.json())
       .then((data) => {
