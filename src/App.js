@@ -6,7 +6,7 @@ import SingleLeague from "./Components/SingleLeague/SingleLeague";
 
 function App() {
   return (
-    
+
       <Router>
         <Switch>
           <Route path="/home">
